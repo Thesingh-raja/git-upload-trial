@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet" />
+<!--  CDN Font awesome linked  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+  .banner-img {
+  background-image: url("images/banner-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 460px;
+}
+.recentnews-img-1 {
+  background: url(images/news-01.jpg);
+  width: 358px;
+  height: 214px;
+}
+.recentnews-img-2 {
+  background: url(images/news-02.jpg);
+  width: 358px;
+  height: 214px;
+}
+.recentnews-img-3 {
+  background: url(images/news-03.jpg);
+  width: 358px;
+  height: 214px;
+}
+</style>
+    <title>SuperMart-Cart</title>
+  </head>
+  <body>
+    <main>
+      <div class="header ">
+
+        <div class="header-top ">
+          <div class="overall-margin flex-jc-sp-bw">
+          <div class="header-top-left-side">
+            <p class="box-in-top-header-left login">Login / Signup</p>
+            <p class="box-in-top-header-left usd ">USD &#9662</p>
+          </div>
+          <div class="header-top-right-side flex-jc-sp-bw">
+            <div class="box-in-top-header-right "><p>Help</p></div>
+            <div class="box-in-top-header-right wishlist "><p><i class="far fa-heart"></i>&nbsp;Wishlist</p></div>
+            <div class="box-in-top-header-right english"><p>English&nbsp;&nbsp;&#9662</p></div>
+            <div class="download"><p >DOWNLOAD APP</p></div>
+          </div>
+        </div>
+        </div>
+
+
+        <!-- HEADER MIDDLE -->
+        <div class="header-middle flex-jc-sp-bw overall-margin">
+          <img class="logo" src="images/logo.png" alt="logo" />
+<div class="header-middle-right-side">
+   <div class="header-middle-box">
+     <div class="header-middle-search"><input type="text" id="search-text" placeholder="Search..." name="search"></div>
+     <div class="all-cat"><p>All Categories</p><i class="fas fa-chevron-down"></i></div>
+     <div class="search-icon"><i class="fas fa-search"></i></div>
+     </div>
+<div class="header-middle-call-box">
+  <img src="images/headset-icon.png" />
+  <div class="call-us-left">
+    <p class="call-us-text">CALL US FREE:</p>
+    <p class="call-us-number">1-800-777-7889</p>
+  </div>
+</div>
+        </div>
+      </div>
+      <!-- HEADER BOTTOM -->
+        <div class="header-bottom ">
+          <div class="overall-margin header-bottom-grid">
+          <div class="departments flex-center"><p>DEPARTMENTS</p><i class="fas fa-bars"></i></div>
+          <div class="nav">
+
+
+            <ul class="nav-ul">
+              <li><a  href="#">HOME</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">FASHION</a></li>
+              <li><a href="#">ELECTRONICS</a></li>
+              <li><a href="#">PAGES</a></li>
+              <li><a href="#">FEATURES</a></li>
+              <li><a href="#">BLOG</a></li>
+            </ul>
+            
+
+
+          </div>
+          <div class="cart-box "><img src="images/cart-icon.png" /><p class="flex-center">3Item:&nbsp; <span>$197</span></p></div>
+
+        </div>
+
+
+        </div>
+     </div>
+     <!-- your cart heading -->
+     <div class="your-cart overall-margin">
+         <p class="your-cart-heading">YOUR CART</p>
+         <p class="return"> <i class="fas fa-chevron-left"></i>&nbsp;RETURN TO SHOP</p>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- table -->
+     <div class=" ur-cart-table overall-margin">
+        <table>
+          <thead>
+            <tr class="highlight">
+              <th class="product">Product</th>
+              <th class="empty"></th>
+              <th class="price">Price</th>
+              <th class="quantity">Quantity</th>
+              <th class="total">Total</th>
+              <th class="empty-2"></th>
+            </tr>
+          </thead>
+            <tr>
+              <td class="flex-total-center product-4" ><img src="images/product-04.jpg" />
+              <td><p class="prod-name">Halogen Room Handwear</p></td>
+              <td  class="price-check">$95.00</td>
+              <td>
+<!-- up down button -->
+                  <div class="quantity">
+                    <input type="number" min="1" max="9" step="1" value="1">
+                  </div>
+
+              </td>
+              <td  class="price-check">$190.00</td>
+              <td><img src="images/remove.png" /></td>
+
+            </tr>
+            <tr>
+              <td class=" flex-total-center product-5"><img  src="images/product-05.jpg" /></td>
+              <td><p class="prod-name">Slooven Stripped T-shirt</p></td>
+              <td  class="price-check">$34.00</td>
+              <td><div class="quantity">
+                <input type="number" min="1" max="9" step="1" value="1">
+              </div></td>
+              <td  class="price-check">$34.00</td>
+              <td><img src="images/remove.png" /></td>
+
+            </tr>
+            <tr>
+              <td class="flex-total-center product-9" ><img src="images/product-09.jpg"  /></td>
+              <td><p class="prod-name">Shaving Cream, 100 gm</p></td>
+              <td  class="price-check">$87.00</td>
+              <td><div class="quantity">
+                <input type="number" min="1" max="9" step="1" value="1">
+              </div></td>
+              <td class="price-check">$87.00</td>
+              <td><img src="images/remove.png" /></td>
+            </tr>
+          </table>
+
+     </div>
+
+<!-- your cart last box -->
+
+<div class="ur-cart-update-box overall-margin">
+  <div class="ur-cart-left-side">
+    <div class="coupon-code flex-center">Coupon Code</div>
+    <div class="apply-coupon flex-total-center">APPLY COUPON</div>
+  </div>
+  <div> </div class="ur-cart-right-side"><div class="update-cart flex-total-center">UPDATE CART</div></div>
+</div>
+
+
+<!-- cart total -->
+<div class="margin-bot">
+<div class=" ct-full overall-margin">
+  <div class="left-side-waste-box"></div>
+  <div class="cart-total"><p class="cart-heading">CART TOTALS</p>
+    <table>
+       <tr class="sub-T">
+      <th class="color-diff-box">SUBTOTAL</th>
+      <th class="tot-price">&#163;87.00</th>
+    </tr>
+    <tr class="ship">
+      <td class=" color-diff-box "><p class="shipping">SHIPPING</p></td>
+      <td class="right-side-ship"><div >
+        
+          <div class="Free-Shipping"><input class="rad" type="radio"  name="cost" value="Free Shipping">
+          <label for="cost1">Free Shipping</label><br></div>
+          <div class="flat-rate"><input class="rad" type="radio"  name="cost" value="Flat Rate $10.00">
+          <label for="cost2">Flat Rate: <span class="bold">&nbsp;&nbsp;$10.00</span></label><br></div>
+         
+        
+        <p class="calc-shipping">Calculate Shipping</p>
+        
+         
+          <select class="country" name="country">
+            <option value="germany">Germany</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+      
+          </select>
+          
+        
+        
+         
+          <select class="select-opt" id="options" name="option">
+            <option value="Select an option">Select an Option...</option>
+            <option value="opt1">Option 1</option>
+            <option value="opt2">Option 2</option>
+      
+          </select>
+          
+        
+        <input  class="post-code" type="text" placeholder="Postcode / ZIP">
+        <button class="up-tot-button">UPDATE TOTALS</button>
+      </div></td>
+    </tr>
+    <tr class="tot">
+      <td class="color-diff-box">TOTAL</td>
+      <td>$197.00</td>
+    </tr></table>
+    <button class="proceed-button">PROCEED TO CHECKOUT</button>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+ <!-- FEATURES -->
+ 
+    <div class="features-grid overall-margin">
+<div class="feature-element free-shipping ">
+<img src="images/free-shipping.png"/>
+<p class="feature-heading">FREE SHIPPING</p>
+<p class="feature-para line-adj">Free Shipping on World wide Order Over $99.</p>
+</div>
+<div class="feature-element trusted-pay">
+<img src="images/trusted-by.png"/>
+<p class="feature-heading">TRUSTED PAY</p>
+<p class="feature-para">100% Payment Protection & Easy Return</p>
+</div>
+<div class="feature-element secured-payment">
+<img src="images/secured-payment.png"/>
+<p class="feature-heading">SECURED PAYMENT</p>
+<p class="feature-para">All Major Credit & Debit Cards Accepted</p>
+</div>
+<div class="feature-element ">
+<img src="images/shop-on-app.png"/>
+<p class="feature-heading">SHOP ON APP</p>
+<p class="feature-para">Just Download our App & Shop With Best Offers</p>
+</div>
+</div>
+  
+   <!-- NEWS LETTER SIGNUP -->
+   <div class="newsletter-signup "> 
+    <div class="flex-jc-sp-bw overall-margin">
+    <div class="signup-left flex-jc-sp-bw">
+      <div class="newsletter"><i class="far fa-paper-plane"></i>
+      <div class="snr flex-center"><p>SIGNUP TO NEWSLETTER</p></div>
+      </div>
+    
+        <div class="enter-email"><p><input type="text"  class="enter-email-text" placeholder="Enter Your Email Address"></p></div>
+        <div class="submit"><div><p>SUBMIT</p></div></div>
+      
+    </div>
+    <div class="signup-right flex-jc-sp-bw">
+      <div class="keep-in"><p>KEEP IN TOUCH</p></div>
+      <div class="flex-center"><div class="social-media"><i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i><i class="fab fa-pinterest"></i></div></div>
+    </div>
+  </div>
+  </div>
+  <!--  FOOTER-->
+  <div class="footer "><div class="overall-margin  footer-grid">
+    <div class="contact-box"><img src="images/logo.png" />
+    <p class="footer-para"> Many say exploration is part of our dest but it's actually our duty to future and their.</p>
+    <p class="address"><span class="contact-box-bold">Address: </span><span class="diff-col">868 Fake Street, New York</span></p>
+    <p class="phone"><span class="contact-box-bold">Phone: </span><a href="telto:(08) 08 4752 1499">(08) 08 4752 1499</a></p>
+    <p class="email"><span class="contact-box-bold">Email: </span><a href="mailto:info@supermart.com">info@supermart.com</a></p>
+    </div>
+    <div class="company"><div><p class="footer-heading">COMPANY</p></div>
+    <ul class="footer-list">
+      <li>Discount Vouches</li>
+      <li>Spring Collection</li>
+      <li>Trending</li>
+      <li>Best Sellers</li>
+      <li>Special Deals</li>
+    </ul></div>
+    <div class="policy-info"><div><p class="footer-heading">POLICY INFO</p></div>
+      <ul class="footer-list">
+        <li>Orders & Returns</li>
+        <li>Advanced Search</li>
+        <li>Help & FAQs</li>
+        <li>Consultant</li>
+        <li>Store Locations</li>
+      </ul></div>
+    <div class="my-account"><div><p class="footer-heading">MY ACCOUNT</p></div>
+      <ul class="footer-list">
+        <li>About Us</li>
+        <li>Delivery Information</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+        <li>Custom Link</li>
+      </ul></div>
+    </div>
+  </div>
+<!-- COPYRIGHT BOX -->
+<div class="copyright flex-center ">
+<div class="overall-margin flex-jc-sp-bw ">
+<div class="copyright-left">&copy;&nbsp;COPYRIGHT - 2018.SUPERMART TEMPLATE BY CODEM</div>
+<div class="copyright-right"></div><img src="images/payment-icons.jpg"/></div>
+</div>
+</main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+  $(document).ready(function () {
+  jQuery('<div class="quantity-nav"><button class="quantity-button quantity-up">&#xf106;</button><button class="quantity-button quantity-down">&#xf107</button></div>').insertAfter('.quantity input');
+  jQuery('.quantity').each(function () {
+    var spinner = jQuery(this),
+        input = spinner.find('input[type="number"]'),
+        btnUp = spinner.find('.quantity-up'),
+        btnDown = spinner.find('.quantity-down'),
+        min = input.attr('min'),
+        max = input.attr('max');
+
+    btnUp.click(function () {
+      var oldValue = parseFloat(input.val());
+      if (oldValue >= max) {
+        var newVal = oldValue;
+      } else {
+        var newVal = oldValue + 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
+
+    btnDown.click(function () {
+      var oldValue = parseFloat(input.val());
+      if (oldValue <= min) {
+        var newVal = oldValue;
+      } else {
+        var newVal = oldValue - 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
+
+  });
+});
+</script>
+
+
+
+
+
+</html>
+

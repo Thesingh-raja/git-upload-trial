@@ -1,0 +1,72 @@
+/* ************************************************ */
+/* MARGIN CONTAINER FOR ALL ELEMENTS */
+/* ************************************************ */
+.overall-margin {
+  width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+.box-in-top-header-left {
+  height: 15px;
+  width: 104px;
+  margin: 0;
+}
+.box-in-top-header-right {
+  height: 15px;
+  width: 104px;
+  margin: 0;
+  text-align: center;
+}
+.heart {
+  height: 12px;
+  width: 12px;
+  padding-top: 2px;
+}
+
+/* ************************************************ */
+/* REUSABLE CLASS FOR FLEX justify content SPACE BETWEEN */
+/* ************************************************ */
+.flex-jc-sp-bw {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* *************** */
+ul {
+  list-style: none;
+}
+/* ***************** */
+/* star rating */
+
+.checked {
+  color: #f8cb48;
+}
+.unchecked {
+  color: #cccccc;
+}
+
+/* **************************** */
+/* hovering */
+.login:hover,
+.help:hover,
+.usd:hover,
+.wishlist:hover,
+.english:hover,
+.download:hover,
+.logo:hover,
+.all-cat:hover,
+.search-icon:hover,
+.call-us-number:hover,
+.departments:hover,
+.cart-box:hover,
+.fab:hover,
+.submit:hover {
+  cursor: pointer;
+}
